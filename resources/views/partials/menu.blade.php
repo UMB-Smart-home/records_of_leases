@@ -6,7 +6,7 @@
                     <i class="fas fa-fw fa-tachometer-alt">
 
                     </i>
-                    {{ trans('global.dashboard') }}
+                    <span>{{ trans('global.dashboard') }}</span>
                 </a>
             </li>
             @can('user_management_access')
@@ -285,7 +285,7 @@
                     <i class="fas fa-fw fa-sign-out-alt">
 
                     </i>
-                    {{ trans('global.logout') }}
+                    <span>{{ trans('global.logout') }}</span>
                 </a>
             </li>
         </ul>
